@@ -18,11 +18,11 @@ body{margin:0;padding:0;background:#FFF;overflow-x:hidden;-webkit-font-smoothing
     }
 }
 
-.mescitations img
+/*.mescitations img
 {
     width: 80%;
     height: auto;
-}
+}*/
 
 .navbar a
 {
@@ -51,4 +51,14 @@ body{margin:0;padding:0;background:#FFF;overflow-x:hidden;-webkit-font-smoothing
 {
     width: 55% !important;
     height: auto !important;
+}
+.imgone img
+{
+    width: 15% !important;
+    height: auto !important;
+}
+.imgtwo img
+{
+   width: 80%!important;
+   height: auto!important;
 }
