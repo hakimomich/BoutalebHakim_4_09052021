@@ -47,17 +47,17 @@ body{margin:0;padding:0;background:#FFF;overflow-x:hidden;-webkit-font-smoothing
 
 /*width height*/
 
-.imgzero img
+img .imgzero
 {
     width: 55% !important;
     height: auto !important;
 }
-.imgone img
+img .imgone
 {
     width: 15% !important;
     height: auto !important;
 }
-.imgtwo img
+img .imgtwo
 {
    width: 80%!important;
    height: auto!important;
