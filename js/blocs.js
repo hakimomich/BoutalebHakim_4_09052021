@@ -12,3 +12,5 @@ function setUpVisibilityToggle(){$(document).on("click","[data-toggle-visibility
 function setUpLightBox(){window.targetLightbox,$(document).on("click","[data-lightbox]",function(t){}).on("hidden.bs.modal","#lightbox-modal",function(){}),$(document).on("click",".next-lightbox, .prev-lightbox",function(t){})
 function addSwipeSupport(){$(".carousel-inner").length&&$(".carousel-inner").swipe({swipeLeft:function(t,e,i,a,o){$(this).parent().carousel("next")},swipeRight:function(){$(this).parent().carousel("prev")},threshold:0})}
 function addKeyBoardSupport(){$(window).keydown(function(t){})}
+let menuButton = document.querySelector('.navbar-toggle')
+let menu = document.querySelector('.collapse')
